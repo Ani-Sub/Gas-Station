@@ -34,7 +34,7 @@ Gas-Station/
 ├── style.css           # Custom styles and layout
 ├── home.js             # Animations and mobile logic
 └── pic/
-    └── logo.png        # Brand logo
+    ├── logo.png        # Brand logo
     └── background.jpg  #Background image
 ```
 
