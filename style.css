@@ -95,8 +95,9 @@ nav {
 .hero {
   background: url('pic/background.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 80vh;
   display: flex;
   align-items: center;
@@ -387,6 +388,13 @@ footer {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+  .hero {
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+      min-height: 70vh;
+  }
+  
   .hero h1 {
       font-size: 2.5rem;
   }
@@ -457,6 +465,10 @@ footer {
 @media (max-width: 480px) {
   .hero {
       height: 60vh;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+      min-height: 60vh;
   }
   
   .hero h1 {
