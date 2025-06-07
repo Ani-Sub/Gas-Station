@@ -30,11 +30,12 @@ Visit the live site: [https://Ani-Sub.github.io/Gas-Station/](https://Ani-Sub.gi
 ## 📁 Project Structure
 ```
 Gas-Station/
-├── index.html       # Main webpage
-├── style.css        # Custom styles and layout
-├── home.js          # Animations and mobile logic
+├── index.html          # Main webpage
+├── style.css           # Custom styles and layout
+├── home.js             # Animations and mobile logic
 └── pic/
-    └── logo.png     # Brand logo
+    └── logo.png        # Brand logo
+    └── background.jpg  #Background image
 ```
 
 ## ⚙️ Deployment
